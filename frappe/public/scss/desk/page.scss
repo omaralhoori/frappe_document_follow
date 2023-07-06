@@ -104,7 +104,7 @@
 	padding: var(--padding-sm);
 	display: flex;
 	flex-wrap: wrap;
-	background-color: var(--card-bg);
+	background-color: #a3ddff;//var(--card-bg);
 	border-bottom: 1px solid var(--border-color);
 
 	.form-group {
@@ -154,7 +154,7 @@
 .layout-main-section {
 	.frappe-list, .report-wrapper {
 		padding: 0 var(--padding-xs);
-
+		background: #a3ddff;
 		.result, .no-result, .freeze {
 			min-height: #{"calc(100vh - 284px)"};
 		}

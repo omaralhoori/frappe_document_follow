@@ -68,7 +68,15 @@
 
 {% block page_content %}
 <!-- {{ for_test }} -->
-<div>
+<style>
+	.login-page-container{
+		background-image: url('/assets/frappe/images/followup-image.jpg');
+	}
+	.login-content.page-card{
+		background-color: rgba(255,255,255, 0.95);
+	}
+</style>
+<div class="login-page-container">
 	<noscript>
 		<div class="text-center my-5">
 			<h4>{{ _("Javascript is disabled on your browser") }}</h4>

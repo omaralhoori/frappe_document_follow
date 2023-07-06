@@ -166,8 +166,13 @@ frappe.ui.Page = class Page {
 	}
 
 	setup_sidebar_toggle() {
+		console.log('hellor wo')		
 		let sidebar_toggle = $(".page-head").find(".sidebar-toggle-btn");
 		let sidebar_wrapper = this.wrapper.find(".layout-side-section");
+		if (!(frappe.utils.is_xs() || frappe.utils.is_sm())) {
+			sidebar_wrapper.toggle();
+		}
+		
 		if (this.disable_sidebar_toggle || !sidebar_wrapper.length) {
 			sidebar_toggle.remove();
 		} else {

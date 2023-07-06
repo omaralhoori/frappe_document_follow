@@ -570,6 +570,7 @@ body {
 		.widget-body{
 			display: flex;
 			flex-wrap: wrap;
+			justify-content: center;
 		}
 		.link-item {
 			display: flex;
@@ -974,6 +975,11 @@ body {
 			.layout-main-section {
 				padding: var(--padding-md);
 				margin-bottom: var(--margin-sm);
+				background: #a3ddff;
+
+				.widget{
+					background: #a3ddff;
+				}
 			}
 
 			.desk-sidebar {
@@ -1196,7 +1202,6 @@ body {
 				&.ce-block--focused {
 					.widget {
 						box-shadow: var(--shadow-base) !important;
-
 						.widget-control > * {
 							width: auto;
 							visibility: visible;
