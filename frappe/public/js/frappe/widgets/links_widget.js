@@ -78,7 +78,7 @@ export default class LinksWidget extends Widget {
 			if (item.link_type.toLowerCase() == "report" && !item.is_query_report) {
 				opts.doctype = item.dependencies;
 			}
-
+			console.log(item);
 			const route = frappe.utils.generate_route(opts);
 
 			return $(`<a href="${route}" class="link-item ellipsis ${
@@ -86,7 +86,7 @@ export default class LinksWidget extends Widget {
 			} ${disabled_dependent(item)}" type="${item.type}" title="${
 				item.label ? item.label : item.name
 			}">
-					<span class="indicator-pill no-margin ${get_indicator_color(item)}"></span>
+					<span class="links-widget-icon no-margin "><img src="${item.icon}"/></span>
 					${get_link_for_item(item)}
 			</a>`);
 		});
