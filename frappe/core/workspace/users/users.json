@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Permission Manager\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User Profile\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User Type\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports & Masters</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Users\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Logs\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Permissions\",\"col\":4}}]",
+ "content": "[{\"id\":\"cJo8gZav80\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"SYamNCVAx5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"TC0BVYvFuG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"hLpPqPdB-X\",\"type\":\"card\",\"data\":{\"card_name\":\"Users\",\"col\":12}}]",
  "creation": "2020-03-02 15:12:16.754449",
  "custom_blocks": [],
  "docstatus": 0,
@@ -23,6 +23,7 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/37.png",
    "is_query_report": 0,
    "label": "User",
    "link_count": 0,
@@ -34,6 +35,7 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/16.png",
    "is_query_report": 0,
    "label": "Role",
    "link_count": 0,
@@ -45,6 +47,7 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/136.png",
    "is_query_report": 0,
    "label": "Role Profile",
    "link_count": 0,
@@ -54,16 +57,9 @@
    "type": "Link"
   },
   {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Logs",
-   "link_count": 0,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/80.png",
    "is_query_report": 0,
    "label": "Activity Log",
    "link_count": 0,
@@ -75,6 +71,7 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/135.png",
    "is_query_report": 0,
    "label": "Access Log",
    "link_count": 0,
@@ -84,16 +81,9 @@
    "type": "Link"
   },
   {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Permissions",
-   "link_count": 0,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/105.png",
    "is_query_report": 0,
    "label": "Role Permissions Manager",
    "link_count": 0,
@@ -105,6 +95,7 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/129.png",
    "is_query_report": 0,
    "label": "User Permissions",
    "link_count": 0,
@@ -116,6 +107,7 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/144.png",
    "is_query_report": 0,
    "label": "Role Permission for Page and Report",
    "link_count": 0,
@@ -127,6 +119,7 @@
   {
    "dependencies": "User",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/128.png",
    "is_query_report": 1,
    "label": "Permitted Documents For User",
    "link_count": 0,
@@ -138,6 +131,7 @@
   {
    "dependencies": "DocShare",
    "hidden": 0,
+   "icon": "/assets/frappe/icons/desk/151.png",
    "is_query_report": 0,
    "label": "Document Share Report",
    "link_count": 0,
@@ -147,7 +141,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-24 14:47:23.619182",
+ "modified": "2023-07-06 21:45:50.215849",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Users",
@@ -159,33 +153,6 @@
  "restrict_to_domain": "",
  "roles": [],
  "sequence_id": 13.0,
- "shortcuts": [
-  {
-   "label": "User",
-   "link_to": "User",
-   "type": "DocType"
-  },
-  {
-   "label": "Role",
-   "link_to": "Role",
-   "type": "DocType"
-  },
-  {
-   "label": "Permission Manager",
-   "link_to": "permission-manager",
-   "type": "Page"
-  },
-  {
-   "label": "User Profile",
-   "link_to": "user-profile",
-   "type": "Page"
-  },
-  {
-   "doc_view": "",
-   "label": "User Type",
-   "link_to": "User Type",
-   "type": "DocType"
-  }
- ],
+ "shortcuts": [],
  "title": "Users"
 }
